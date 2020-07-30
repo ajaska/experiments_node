@@ -6,6 +6,8 @@
   "author": "Arlan Jaska <ajaska@berkeley.edu>",
   "license": "none",
   "dependencies": {
+    "@types/puppeteer": "^3.0.1",
+    "puppeteer": "^5.2.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },

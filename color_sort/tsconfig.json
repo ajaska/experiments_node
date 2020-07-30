@@ -1,14 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "ESNext",
     "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "resolveJsonModule": true,
+
     "strict": true,
+    "jsx": "react",
+
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": ["./index.ts"]
 }
